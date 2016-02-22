@@ -1,0 +1,385 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Новости</title>
+        <meta name="description" content="">
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <link rel="stylesheet" href="css/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/vendor/slick.css">
+        <link rel="stylesheet" href="css/vendor/star-rating.min.css">
+        <link rel="stylesheet" href="css/vendor/jquery.jscrollpane.css">
+        <link rel="stylesheet" href="css/vendor/bootstrap-slider.min.css">
+        <link rel="stylesheet" href="css/vendor/jquery.bootstrap-touchspin.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 col-sm-6 logo-wrap">
+                            <a class="logo" href="#!">
+                                <img src="img/logo.png" alt="Логотип" class="logo-img">
+                                <address class="logo-address hidden-xs">
+                                    140502 Москва, ул. Петровского, 137/3 <br>
+                                    anasta-baby.ru, anasta-baby@gmail.com
+                                </address>
+                            </a><!--/.logo-->
+                        </div>
+                        
+                        <div class="col-md-2 col-sm-4 col-xs-12 l-header-phone">
+                            <div class="l-header-tel">
+                                <a href="tel:84957004242" class="header-tel-link">
+                                <span class="icon-header-tel"></span>8 (495) 700-42-42</a>
+                                <button class="btn btn-primary">Заказать звонок</button>
+                            </div><!--/.l-header-tel-->
+                        </div>
+
+                        <div class="col-lg-4 col-md-3 col-sm-12 hidden-xs">
+                            <form class="l-header-search">
+                                <div class="input-group">
+                                  <input type="search" class="form-control" placeholder="Я ищу">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-search" type="button">Найти</button>
+                                  </span>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div>                        
+
+                        <div class="col-lg-2 col-md-3 col-sm-12 l-cabinet">
+                            <ul class="toolbar-header">
+                                <li><a class="icon-basket" href="#!">
+                                    <span class="badge">21</span>
+                                </a></li>
+
+                                <li><a class="icon-heart" href="#!">
+                                    <span class="badge">3</span>
+                                </a></li>
+
+                                <li><a class="icon-rating" href="#!">
+                                    <span class="badge">2</span>
+                                </a></li>
+                            </ul><!--/.toolbar-header-->
+
+                            <div class="l-header-enter">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal"> <span class="icon-cabinet hidden-xs"></span>Личный кабинет</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.container-->
+            </header><!--/.header-->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <form class="l-header-search">
+                            <div class="input-group">
+                              <input type="search" class="form-control" placeholder="Я ищу">
+                              <span class="input-group-btn">
+                                <button class="btn btn-search" type="button">Найти</button>
+                              </span>
+                            </div><!-- /input-group -->
+                        </form>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Фани</a></li>
+                            <li class="nav-second-level">
+                                <a href="#">Каталог <span class="glyphicon glyphicon-plus js-open-menu"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Транспорт</a></li>
+                                    <li><a href="#">Мебель</a></li>
+                                    <li><a href="#">Туризм, спорт</a></li>
+                                    <li><a href="#">Гигиена</a></li>
+                                    <li><a href="#">Аптека</a></li>
+                                    <li><a href="#">Одежда</a></li>
+                                    <li><a href="#">Игрушки</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Партнерам</a></li>
+                            <li><a href="#">Оформить заказ</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav><!--/.navbar-->
+            
+            <div class="container">
+                <aside class="breadcrumb-wrap">
+                    <ol class="breadcrumb">
+                      <li><a href="#">Главная</a></li>
+                      <li class="active">Новости</li>
+                    </ol>
+                </aside><!--.breadcrumb-wrap-->
+            </div>
+
+            <main class="main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-9 col-sm-push-3">
+                            <section class="news-article">
+                                <div class="news-article-date">ǀ 24.01.2015</div>
+                                <h1 class="news-article-title">
+                                    Снусмумрик покидает Муми-Дол
+                                    <small class="help">Таинственный уход на рассвете</small>
+                                </h1>
+                                <div class="news-article-body clearfix">
+                                    <img src="img/news.jpg" height="287" width="474" class="img-responsive pull-left" alt="новость">
+                                    <p> Тихим, безоблачным вечерком в конце апреля Снусмумрик обнаружил, что забрался слишком далеко на север. Отсюда были видны заплаты вечных снегов на далеких горах.
+                                    Весь день Снусмумрик шел, вслушиваясь в крики птиц, возвращавшихся с юга домой, на север.
+                                    Прогулка оказалась легкой, рюкзак был почти пуст, и Снусмумрика ничего не беспокоило. Он чувствовал себя счастливым. Ему нравился лес, погода и он сам. </p>
+                                    <p>Солнце ярко сверкало красным между листьями, воздух казался холодным и приятным.
+                                    «В такой вечер неплохо бы сочинить мелодию», — подумал Снусмумрик. — «Новая мелодия: ожидание, весенняя печаль и восторг прогулки в одиночестве».
+                                    Сперва он спрячет мелодию, не посмеет наигрывать ее, а потом возьмет губную гармошку, и все ноты сами встанут на свои места.
+                                    Если он выпустит их на свободу раньше, они могут приклеиться по пути и получится мелодия, хорошая лишь наполовину, или они вообще потеряются, и у него никогда больше не будет подходящего настроения, чтобы найти их. Мелодии — серьезные штучки, особенно, если они и веселые и грустные одновременно.
+                                    В этот вечер Снусмумрик чувствовал себя уверенно. Мелодия ждала, наполовину оформившись. Снусмумрик был уверен: она станет лучшей мелодией из тех, что он сочинил.</p>
+                                </div>
+                            </section><!--news-article-->
+
+                            <div class="news-comment">
+                                <h4 class="news-comment-title">Комментарии</h4>
+                                
+                                <div class="comment-item">
+                                    <div class="media">
+                                      <a class="comments-img pull-left" href="#">
+                                        <img class="media-object" src="img/comments/photo2.jpg" alt="фото">
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading">Снусмумрик</h4>
+                                        <div class="media-info">
+                                            <span class="media-name">Одинокие Горы ǀ</span>  
+                                            <span class="media-date">24.01.2015</span>
+                                        </div>
+                                        <div class="media-text">
+                                            Привет! Очень рад вас видеть. У вас, случайно, нет на борту кофе? 
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div><!--/.comments-item-->
+
+                                <div class="comment-item">
+                                    <div class="media">
+                                      <a class="comments-img pull-left" href="#">
+                                        <img class="media-object" src="img/comments/photo3.jpg" alt="фото">
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading">Ондатр</h4>
+                                        <div class="media-info">
+                                            <span class="media-name">долина Муми-дол  ǀ</span>  
+                                            <span class="media-date">24.01.2015</span>
+                                        </div>
+                                        <div class="media-text">
+                                            Постели меня не волнуют - это ненужные предметы обстановки. 
+                                            Я жил в простой норе и чувствовал себя в ней прекрасно. Конечно, с философской точки зрения безразлично, как ты себя чувствуешь, но, вообще-то говоря, это была хорошая нора. 
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div><!--/.comments-item-->
+                            </div><!--/.news-comment-->
+                        </div>
+
+                        <div class="col-sm-3 col-sm-pull-9">
+                            <h2  class="left-bat-title">Новости</h2>
+                            <aside class="news-list">
+                                <article class="news-item opened">
+                                    <div class="news-date">ǀ 24.01.2015</div>
+                                    <h3 class="news-title"><a href="#!">Снусмумрик покидает Муми-Дол</a></h3>
+                                    <div class="news-preview">Таинственный уход на рассвете <span class="triangle"></span></div>
+                                </article>
+
+                                <article class="news-item">
+                                    <div class="news-date">ǀ 24.01.2015</div>
+                                    <h3 class="news-title"><a href="#!">Пропала сумка Муми-мамы</a></h3>
+                                    <div class="news-preview">Никаких путеводных нитей! Розыски продолжаются. Неслыханное пиршество в вознаграждение за находку! <span class="triangle"></span></div>
+                                </article>
+
+                                <article class="news-item">
+                                    <div class="news-date">ǀ 24.01.2015</div>
+                                    <h3 class="news-title"><a href="#!">Муравьиный лев забрался в муравейник</a></h3>
+                                    <div class="news-preview">Уничтожен годовой запас продуктов! <span class="triangle"></span></div>
+                                </article>
+
+                                <article class="news-item ">
+                                    <div class="news-date">ǀ 24.01.2015</div>
+                                    <h3 class="news-title"><a href="#!">Загадочная находка</a></h3>
+                                    <div class="news-preview">В реке найдена новая шляпа. Владелец шляпы неизвестен. <span class="triangle"></span></div>
+                                </article>
+
+                                <article class="news-item">
+                                    <div class="news-date">ǀ 24.01.2015</div>
+                                    <h3 class="news-title"><a href="#!">Тревожный сигнал</a></h3>
+                                    <div class="news-preview">Муравьиный лев забрался в муравейник. Уничтожен годовой запас продуктов! <span class="triangle"></span></div>
+                                </article>
+
+                                <article class="news-item">
+                                    <div class="news-date">ǀ 24.01.2015</div>
+                                    <h3 class="news-title"><a href="#!">Уголок филателиста</a></h3>
+                                    <div class="news-preview">Хобби уважаемого хемуля пришло к счастливому концу. <span class="triangle"></span></div>
+                                </article>
+                            </aside>
+                            <a href="#!">Посмотреть все новости</a>
+                        </div>
+                    </div><!--/.row-->
+                </div><!--/.container-->
+            </main>
+            
+        </div><!--/.wrapper-->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner clearfix">
+                    <div class="col-md-2 col-sm-2">
+                        <div class="l-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-footer.png" alt="Логотип">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-7 col-sm-10 hidden-xs">
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Фани</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">О нас</a></li>
+                                <li><a href="#!">Наше качество</a></li>
+                                <li><a href="#!">Наши партнеры</a></li>
+                                <li><a href="#!">Контакты</a></li>
+                                <li><a href="#!">Отзывы</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Каталог</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">Транспорт</a></li>
+                                <li><a href="#!">Мебель</a></li>
+                                <li><a href="#!">Туризм</a></li>
+                                <li><a href="#!">Гигиена</a></li>
+                                <li><a href="#!">Аптека</a></li>
+                                <li><a href="#!">Одежда</a></li>
+                                <li><a href="#!">2.7 Игрушки</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Партнерам</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">Поставщикам</a></li>
+                                <li><a href="#!">Оптовым покупателям</a></li>
+                                <li><a href="#!">Франчайзинг</a></li>
+                                <li><a href="#!">Рекламодателям</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Оформить заказ</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">Условия оплаты</a></li>
+                                 <li><a href="#!">Доставка</a></li>
+                                 <li><a href="#!">Гарантия</a></li>
+                                 <li><a href="#!">Услуги</a></li>
+                                 <li><a href="#!">Вопрос-ответ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <ul class="payment-service-list">
+                            <li><a href="#!"><img src="img/visa.png" alt="visa"></a></li>
+                            <li><a href="#!"><img src="img/master-card.png" alt="master-card"></a></li>
+                        </ul>
+
+                        <ul class="social-link-list">
+                            <li><a href="#!"><span class="icon-vk"></span></a></li>
+                            <li><a href="#!"><span class="icon-ok"></span></a></li>
+                            <li><a href="#!"><span class="icon-fb"></span></a></li>
+                            <li><a href="#!"><span class="icon-tw"></span></a></li>
+                            <li><a href="#!"><span class="icon-g"></span></a></li>
+                            <li><a href="#!"><span class="icon-in"></span></a></li>
+                            <li><a href="#!"><span class="icon-yb"></span></a></li>
+                        </ul>
+
+                        <div class="l-footer-message">
+                            <button class="btn btn-send">Отправить сообщение</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a id="scrollTop" class="to-up" href="#">
+            <span class="icon-top"></span>
+            Наверх
+        </a>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-login-size">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel">Личный кабинет</h4>
+              </div>
+              <div class="modal-body">
+                <div class="l-login-form">
+                    <form id="login">
+                        <div class="form-group">
+                            <input class="form-control bottom-only" type="email" placeholder="ваш e-mail" name="loginEmailInput" id="loginEmailInput">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control bottom-only" type="password" placeholder="пароль" name="loginPasswordInput" id="loginPasswordInput">
+                        </div>
+                        <div class="l-footer-form">
+                            <button class="btn btn-send">Войти в кабинет</button> <br>
+                            <a href="#" class="link">Зарегистрироваться</a>
+                        </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--/.modal login-->
+        
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/slick.min.js"></script>
+        <script src="js/vendor/star-rating.min.js"></script>
+        <script src="js/vendor/jquery.mousewheel.js"></script>
+        <script src="js/vendor/jquery.jscrollpane.min.js"></script>
+        <script src="js/vendor/bootstrap-slider.min.js"></script>
+        <script src="js/vendor/jquery.validate.min.js"></script>
+        <script src="js/vendor/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

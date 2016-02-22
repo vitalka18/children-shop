@@ -1,0 +1,509 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Кабинет</title>
+        <meta name="description" content="">
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <link rel="stylesheet" href="css/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/vendor/slick.css">
+        <link rel="stylesheet" href="css/vendor/star-rating.min.css">
+        <link rel="stylesheet" href="css/vendor/jquery.jscrollpane.css">
+        <link rel="stylesheet" href="css/vendor/bootstrap-slider.min.css">
+        <link rel="stylesheet" href="css/vendor/jquery.bootstrap-touchspin.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5 col-sm-6 logo-wrap">
+                            <a class="logo" href="#!">
+                                <img src="img/logo.png" alt="Логотип" class="logo-img">
+                                <address class="logo-address hidden-xs">
+                                    140502 Москва, ул. Петровского, 137/3 <br>
+                                    anasta-baby.ru, anasta-baby@gmail.com
+                                </address>
+                            </a><!--/.logo-->
+                        </div>
+                        
+                        <div class="col-md-2 col-sm-4 col-xs-12 l-header-phone">
+                            <div class="l-header-tel">
+                                <a href="tel:84957004242" class="header-tel-link">
+                                <span class="icon-header-tel"></span>8 (495) 700-42-42</a>
+                                <button class="btn btn-primary">Заказать звонок</button>
+                            </div><!--/.l-header-tel-->
+                        </div>
+
+                        <div class="col-lg-4 col-md-3 col-sm-12 hidden-xs">
+                            <form class="l-header-search">
+                                <div class="input-group">
+                                  <input type="search" class="form-control" placeholder="Я ищу">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-search" type="button">Найти</button>
+                                  </span>
+                                </div><!-- /input-group -->
+                            </form>
+                        </div>                        
+
+                        <div class="col-lg-2 col-md-3 col-sm-12 l-cabinet">
+                            <ul class="toolbar-header">
+                                <li><a class="icon-basket" href="#!">
+                                    <span class="badge">21</span>
+                                </a></li>
+
+                                <li><a class="icon-heart" href="#!">
+                                    <span class="badge">3</span>
+                                </a></li>
+
+                                <li><a class="icon-rating" href="#!">
+                                    <span class="badge">2</span>
+                                </a></li>
+                            </ul><!--/.toolbar-header-->
+
+                            <div class="l-header-enter">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal"> <span class="icon-cabinet hidden-xs"></span>Личный кабинет</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.container-->
+            </header><!--/.header-->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <form class="l-header-search">
+                            <div class="input-group">
+                              <input type="search" class="form-control" placeholder="Я ищу">
+                              <span class="input-group-btn">
+                                <button class="btn btn-search" type="button">Найти</button>
+                              </span>
+                            </div><!-- /input-group -->
+                        </form>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Фани</a></li>
+                            <li class="nav-second-level">
+                                <a href="#">Каталог <span class="glyphicon glyphicon-plus js-open-menu"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Транспорт</a></li>
+                                    <li><a href="#">Мебель</a></li>
+                                    <li><a href="#">Туризм, спорт</a></li>
+                                    <li><a href="#">Гигиена</a></li>
+                                    <li><a href="#">Аптека</a></li>
+                                    <li><a href="#">Одежда</a></li>
+                                    <li><a href="#">Игрушки</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Партнерам</a></li>
+                            <li><a href="#">Оформить заказ</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav><!--/.navbar-->
+            
+            <div class="container">
+                <aside class="breadcrumb-wrap">
+                    <ol class="breadcrumb">
+                      <li><a href="#">Главная</a></li>
+                      <li class="active">Личный кабинет</li>
+                    </ol>
+                </aside><!--.breadcrumb-wrap-->
+            </div>
+
+            <main class="main">
+                <div class="container">
+                    <div class="tab-wrap personal-cabinet-tabs">
+                        <ul class="nav nav-tabs">
+                          <li class="active">
+                            <a href="#personalCabinetTab" data-toggle="tab">Личный кабинет</a>
+                          </li>
+                          <li class="">
+                            <a href="#dicontCardTab" data-toggle="tab">Дисконтная карта</a>
+                          </li>
+                        </ul><!--/.nav nav-tabs-->
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="personalCabinetTab">
+                                <div class="clearfix l-tab-inner">
+                                    <div class="col-md-7">
+                                        <div class="panel panel-cabinet">
+                                            <div class="panel-heading ">Личная информация</div>
+                                            <div class="panel-body personal-body">
+                                                <form class="clearfix validate">
+                                                    <div class="form-group">
+                                                        <label for="fullNameCabinet">ФИО</label>
+                                                        <input id="fullNameCabinet" name="fullNameCabinet" type="text" class="form-control personal-control" value="Бранденбургская-Пугач Курфюрстина Феоктистовна">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="telNumberCabinet">Телефон:</label>
+                                                        <input id="telNumberCabinet" name="telNumberCabinet" type="tel" class="form-control personal-control" >
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="emailCabinet">E-mail:</label>
+                                                        <input id="emailCabinet" name="email" type="email" class="form-control personal-control" >
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label>Дата рождения:</label>
+                                                        <div class="row">
+                                                            <div class="col-xs-4">
+                                                                <select class="form-control personal-control" name="dayBirthday" id="dayBirthday">
+                                                                    <option value="0">Число</option>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-xs-4">
+                                                                <select class="form-control personal-control" name="monthBirthday" id="monthBirthday">
+                                                                    <option value="0">Месяц</option>
+                                                                    <option value="Месяц 1">Месяц 1</option>
+                                                                    <option value="Месяц 2">Месяц 2</option>
+                                                                    <option value="Месяц 3">Месяц 3</option>
+                                                                    <option value="Месяц 4">Месяц </option>
+                                                                    <option value="Месяц 5">Месяц 5</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-xs-4">
+                                                                <select class="form-control personal-control" name="yearBirthday" id="yearBirthday">
+                                                                    <option value="0">Год</option>
+                                                                    <option value="2000">2000</option>
+                                                                    <option value="2001">2001</option>
+                                                                    <option value="2002">2002</option>
+                                                                    <option value="2003">2003</option>
+                                                                    <option value="2004">2004</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                     <div class="form-group">
+                                                        <label for="addressCabinet">Адрес доставки:</label>
+                                                        <textarea class="form-control personal-control" name="addressCabinet" id="addressCabinet" rows="2"></textarea>
+                                                    </div>
+
+                                                    <div class="form-group l-cabinet-checkbox">
+                                                        <div class="checkbox"><label>
+                                                            <input type="checkbox"><span class="checkbox-filter"></span> Новинки каталога
+                                                        </label></div>
+                                                        <div class="checkbox"><label>
+                                                            <input type="checkbox"><span class="checkbox-filter"></span> Новости компании
+                                                        </label></div>
+                                                    </div>
+
+                                                    <div class="l-cabinet-btn text-center">
+                                                        <button type="submit" class="btn btn-save">Сохранить</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div><!--/.panel-->
+
+                                        
+                                        <div class="panel panel-cabinet">
+                                            <div class="panel-heading ">Изменение пароля</div>
+                                            <div class="panel-body personal-body">
+                                                <form id="changePassword" class="clearfix">
+                                                    <div class="form-group">
+                                                        <label for="password">Введите новый пароль</label>
+                                                        <input id="password" name="password" type="password" class="form-control personal-control">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="confirm_password">Повторите новый пароль</label>
+                                                        <input id="confirm_password" name="confirm_password" type="password" class="form-control personal-control" >
+                                                    </div>
+
+                                                    <div class="l-cabinet-btn text-center">
+                                                        <button type="submit" class="btn btn-save">Сохранить</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div><!--/.panel-->
+                                    
+                                    </div>
+                                    
+
+                                    <div class="col-md-5">
+                                        <div class="panel panel-cabinet">
+                                            <div class="panel-heading ">Заказы</div>
+                                            <div class="panel-body personal-body">
+                                                <div class="cabinet-order-info">
+                                                    <dl class="head">
+                                                        <dt>Всего 32 заказа</dt>
+                                                        <dd>1525247254,00 р.</dd>
+                                                    </dl>
+
+                                                    <dl>
+                                                        <dt>В обработке</dt>
+                                                        <dd>5 заказов</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>Ожидает оплаты</dt>
+                                                        <dd>25 заказов</dd>
+                                                    </dl>
+                                                    <dl>
+                                                        <dt>Завершено</dt>
+                                                        <dd>3 заказов</dd>
+                                                    </dl>
+                                                </div>
+                                            </div>
+                                        </div><!--/.panel-->
+
+                                        <div class="discont-cabinet">
+                                            <div class="discont-type">
+                                                <h5 class="discont-type-name">Накопительная скидка</h5>
+                                                <a class="discont-how-get" href="#!">Как повысить?</a>
+                                            </div>
+                                            <div class="discont-value">5%</div>
+                                        </div><!--/.discont-cabinet-->
+                                    </div>
+
+                                    
+                                </div><!--/.l-tab-inner-->
+                                
+                            </div><!--/.tab-pane-->
+
+                            <div class="tab-pane " id="dicontCardTab">
+                                <div class="discont-page">
+                                    <div class="discont-cabinet">
+                                        <div class="discont-type">
+                                            <h5 class="discont-type-name">Ваша накопительная скидка</h5>
+                                        </div>
+                                        <div class="discont-value">5%</div>
+                                    </div><!--/.discont-cabinet-->
+
+                                    <dl class="bought-sum">
+                                        <dt>Сумма покупок</dt>
+                                        <dd>15247,00 р.</dd>
+                                    </dl>
+
+                                    <table class="table table-discont hidden-xs">
+                                        <tbody>
+                                            <tr>
+                                                <td class="head">Размер скидки</td>
+                                                <td class="parcent">3%</td>
+                                                <td class="parcent">5%</td>
+                                                <td class="parcent">7%</td>
+                                                <td class="parcent">10%</td>
+                                                <td class="parcent">15%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="head">Сумма покупок</td>
+                                                <td>10 000 р.</td>
+                                                <td>50 000 р.</td>
+                                                <td>100 000 р.</td>
+                                                <td>500 000 р.</td>
+                                                <td>1 000 000 р.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <table class="table table-discont visible-xs">
+                                        <thead>
+                                            <tr>
+                                                <th class="head">Размер скидки</th>
+                                                <th class="head">Сумма покупок</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="parcent">3%</td>
+                                                <td>10 000 р.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="parcent">5%</td>
+                                                <td>50 000 р.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="parcent">7%</td>
+                                                <td>100 000 р.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="parcent">10%</td>
+                                                <td>500 000 р.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="parcent">15%</td>
+                                                <td>1 000 000 р.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="text-center">
+                                        Чтобы повысить размер скидки, вам требуется купить 
+                                        в интернет-магазине Funny Star товаров на сумму 100 000 р. 
+                                        (сума покупок на сегодняшний день составляет 15247 р.)
+                                    </p>
+                                </div><!--/.discont-page-->
+                            </div><!--/.tab-pane-->
+                        </div><!--/.tab-content-->
+                    </div><!--/.personal-cabinet-tabs-->
+                </div><!--/.container-->
+            </main>
+            
+        </div><!--/.wrapper-->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner clearfix">
+                    <div class="col-md-2 col-sm-2">
+                        <div class="l-footer-logo">
+                            <a href="#">
+                                <img src="img/logo-footer.png" alt="Логотип">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-7 col-sm-10 hidden-xs">
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Фани</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">О нас</a></li>
+                                <li><a href="#!">Наше качество</a></li>
+                                <li><a href="#!">Наши партнеры</a></li>
+                                <li><a href="#!">Контакты</a></li>
+                                <li><a href="#!">Отзывы</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Каталог</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">Транспорт</a></li>
+                                <li><a href="#!">Мебель</a></li>
+                                <li><a href="#!">Туризм</a></li>
+                                <li><a href="#!">Гигиена</a></li>
+                                <li><a href="#!">Аптека</a></li>
+                                <li><a href="#!">Одежда</a></li>
+                                <li><a href="#!">2.7 Игрушки</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Партнерам</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">Поставщикам</a></li>
+                                <li><a href="#!">Оптовым покупателям</a></li>
+                                <li><a href="#!">Франчайзинг</a></li>
+                                <li><a href="#!">Рекламодателям</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="l-menu-list">
+                            <h4 class="menu-list-title">Оформить заказ</h4>
+                            <ul class="menu-list">
+                                <li><a href="#!">Условия оплаты</a></li>
+                                 <li><a href="#!">Доставка</a></li>
+                                 <li><a href="#!">Гарантия</a></li>
+                                 <li><a href="#!">Услуги</a></li>
+                                 <li><a href="#!">Вопрос-ответ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                        <ul class="payment-service-list">
+                            <li><a href="#!"><img src="img/visa.png" alt="visa"></a></li>
+                            <li><a href="#!"><img src="img/master-card.png" alt="master-card"></a></li>
+                        </ul>
+
+                        <ul class="social-link-list">
+                            <li><a href="#!"><span class="icon-vk"></span></a></li>
+                            <li><a href="#!"><span class="icon-ok"></span></a></li>
+                            <li><a href="#!"><span class="icon-fb"></span></a></li>
+                            <li><a href="#!"><span class="icon-tw"></span></a></li>
+                            <li><a href="#!"><span class="icon-g"></span></a></li>
+                            <li><a href="#!"><span class="icon-in"></span></a></li>
+                            <li><a href="#!"><span class="icon-yb"></span></a></li>
+                        </ul>
+
+                        <div class="l-footer-message">
+                            <button class="btn btn-send">Отправить сообщение</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a id="scrollTop" class="to-up" href="#">
+            <span class="icon-top"></span>
+            Наверх
+        </a>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-login-size">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel">Личный кабинет</h4>
+              </div>
+              <div class="modal-body">
+                <div class="l-login-form">
+                    <form id="login">
+                        <div class="form-group">
+                            <input class="form-control bottom-only" type="email" placeholder="ваш e-mail" name="loginEmailInput" id="loginEmailInput">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control bottom-only" type="password" placeholder="пароль" name="loginPasswordInput" id="loginPasswordInput">
+                        </div>
+                        <div class="l-footer-form">
+                            <button class="btn btn-send">Войти в кабинет</button> <br>
+                            <a href="#" class="link">Зарегистрироваться</a>
+                        </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--/.modal login-->
+        
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/slick.min.js"></script>
+        <script src="js/vendor/star-rating.min.js"></script>
+        <script src="js/vendor/jquery.mousewheel.js"></script>
+        <script src="js/vendor/jquery.jscrollpane.min.js"></script>
+        <script src="js/vendor/bootstrap-slider.min.js"></script>
+        <script src="js/vendor/jquery.validate.min.js"></script>
+        <script src="js/vendor/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

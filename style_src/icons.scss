@@ -1,0 +1,138 @@
+[class*="icon-"] {
+  display: inline-block;
+  background-position: center;
+  background-image: url(../img/spritesheet.png)!important;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.icon-header-tel {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-position: -64px -212px;
+}
+
+.icon-basket {
+  width: 29px;
+  height: 24px;
+ background-position: -119px -80px;
+}
+
+.icon-basket-white {
+  width: 23px;
+  height: 19px;
+  margin-right: 8px;
+  background-position: -178px -80px;
+}
+
+.icon-heart {
+  width: 23px;
+  height: 21px;
+  background-position: -114px -212px;
+}
+
+.icon-rating {
+  width: 25px;
+  height: 22px;
+  background-position: -244px -15px;
+}
+
+.icon-cabinet {
+  width: 24px;
+  height: 22px;
+  background-position: -15px -129px;
+  margin-right: 5px;
+}
+
+.icon-vk {
+  width: 12px;
+  height: 15px;
+  background-position: -276px -112px;
+}
+
+.icon-ok {
+  width: 9px;
+  height: 15px;
+  background-position: -213px -212px;
+}
+
+.icon-fb {
+  width: 8px;
+  height: 16px;
+  background-position: -205px -166px;
+}
+
+.icon-tw {
+  width: 19px;
+  height: 15px;
+  background-position: -276px -67px;
+}
+
+.icon-g {
+  width: 19px;
+  height: 16px;
+  background-position: -15px -212px;
+}
+
+.icon-in {
+  width: 16px;
+  height: 17px;
+  background-position: -167px -212px;
+}
+
+.icon-yb {
+  width: 18px;
+  height: 17px;
+  background-position: -252px -223px;
+}
+
+.icon-top {
+  display: block;
+  width: 35px;
+  margin: 0 auto;
+  height: 27px;
+  background-position: -252px -166px;
+}
+
+.close {
+  width: 16px;
+  height: 16px;
+  background: url(../img/spritesheet.png) center no-repeat !important;
+  background-position: -113px -166px!important;
+  opacity: 1;
+  &.close-dark {
+    background: url(../img/spritesheet.png) center no-repeat !important;
+    background-position: -159px -166px!important;
+    right: 15px;
+    top: 15px;
+    position: absolute;
+  }
+  &.close-red {
+    background: url(../img/icons/close-red.png) center no-repeat !important;
+  }
+}
+
+.icon-card-timer {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+  background-position: -69px -166px;
+  opacity: 1;
+}
+
+.icon-card-heart {
+  width: 15px;
+  height: 12px;
+  margin-right: 8px;
+  background-position: -231px -80px;
+  opacity: 1;
+}
+
+.icon-card-rating {
+  width: 15px;
+  height: 14px;
+  margin-right: 8px;
+  background-position: -231px -122px;
+  opacity: 1;
+}
