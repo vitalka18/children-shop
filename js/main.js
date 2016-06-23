@@ -91,14 +91,14 @@
   $('.js-open-menu').on('click', function(e){
     e.preventDefault();
 
-    var $selector = $(this).parent().next();
+    var $selector = $(this).parent().parent().find('.dropdown-menu');
     var $that = $(this);
     
     if( !$(this).hasClass('open') ) {
-      $selector.slideDown(300);
+      $selector.slideDown(500);
       $that.addClass('open');
     } else {
-      $selector.slideUp(300);
+      $selector.slideUp(500);
       $that.removeClass('open');
     }
   });
