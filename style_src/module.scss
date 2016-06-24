@@ -131,6 +131,7 @@ $base-font-color: #808285;
   transform: translateY(15px);
   li {
     a {
+      position: relative;
       color: #fff;
       padding: 5px 15px;
       &:hover,
@@ -148,6 +149,21 @@ $base-font-color: #808285;
         visibility: visible;
         z-index: 5;
         top: -2px;
+      }
+      &.nav-third-level>a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: -10px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent #f7911f;
+        z-index: 6;
       }
     }
   }
@@ -178,6 +194,9 @@ $base-font-color: #808285;
     width: 208px;
     padding-right: 15px;
     border-right: 1px solid #f7911f;
+  }
+  .dm-brand {
+    width: 100px;
   }
 }
 
@@ -3069,6 +3088,7 @@ label.error {
     .dropdown-menu__level-2_item {
       float: none;
       padding: 0;
+      width: 100%;
       +.dropdown-menu__level-2_item {
         margin-top: 15px;
       }
